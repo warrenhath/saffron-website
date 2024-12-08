@@ -1,0 +1,86 @@
+.header {
+    height: 55px;
+    background-color: rgb(48, 25, 52);
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    border-bottom: 2px;
+    border-color: black;
+    z-index: 100;
+
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.farm-logo {
+    width: 60px;
+}
+
+.middle-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0px;
+    margin-right: 20px;
+    margin-left: auto;
+}
+
+.about-button,
+.photo-catalog-button,
+.recipes-button,
+.contact-button {
+    font-weight: 500;
+    font-size: 18px;
+    background: none;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    padding: 6px 12px;
+    transition: 0.3s;
+}
+
+
+.about-button:hover,
+.photo-catalog-button:hover,
+.recipes-button:hover,
+.contact-button:hover {
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8);
+    opacity: .6;
+}
+
+.photo-catalog-button {
+    white-space: nowrap;
+}
+
+.right-section {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    flex-shrink: 0;
+    gap: 10px;
+}
+
+.search-icon,
+.cart-icon {
+    width: 22px;
+    cursor: pointer;
+}
+
+.search-icon:hover,
+.cart-icon:hover {
+    opacity: 0.75;
+}
+
+
