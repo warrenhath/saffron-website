@@ -2,10 +2,14 @@
 <html>
   <head>
     <title>Saffron Farm</title>
+    <!--Inter font embedded-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-
+    <!--Karla font embedded-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/general.css">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/introduction.css">
@@ -27,11 +31,26 @@
         <img class="cart-icon" src="images/header/shopping-cart-white-icon.svg">
       </div>
     </header>
-
-    <div class="intro-section">
-      <video class ="saffron-basket-vid" autoplay loop muted>
-        <!--<source src="images/saffron-basket-vid.mp4" type="video/mp4">-->
-      </video>
-    </div>
+    
+    <main class="main-content">
+      <div class="intro-section">
+        <div class="intro-paragraph-grid">
+          <p class="intro-title">Welcome to &#60;Website/Farm Name&#62;</p>
+        <p class="intro-message">
+          short introduction about what the website or business 
+          is about blah blah blah blah blah blah
+        </p>
+        <button class="more-about-button">About Us</button>
+        </div>
+        <div class="intro-image-content">
+          <div class="intro-image-content-row">
+            <img class="single-flower-image" src="images/introduction/single-flower.JPG">
+            <img class="bunch-of-flowers-image" src="images/introduction/basket-of-flowers.JPG">
+          </div>
+          <img class="farm-family-image" src="images/introduction/farm-family-photo.JPG">
+        </div>
+      </div>
+    </main>
+    
   </body>
 </html>

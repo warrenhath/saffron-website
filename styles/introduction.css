@@ -1,4 +1,129 @@
-.saffron-basket-vid {
-    width: 100%;
-    height: 100%;
+/* top section of website with introduction */
+.intro-section {
+    margin-top: 65px;
+    display: grid;
+    grid-template-columns: 700px 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CSS Grid for text paragraphs */
+.intro-paragraph-grid {
+    font-family: "Karla", sans-serif;
+    display: grid;
+    text-align: center;
+    grid-template-rows: 1fr;
+    background-color: rgb(187, 160, 230);
+    padding-top: 185px;
+    padding-bottom: 185px;
+    padding-left: 20px;
+    padding-right: 80px;
+    width: 580px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+/* animation for intro text elements */
+.intro-title,
+.intro-message,
+.more-about-button {
+    opacity: 0;
+    animation: slideIn 2s ease forwards;
+}
+
+/* website welcome text */
+.intro-title {
+    margin: 0;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 45px;
+    color: rgb(46, 46, 46);
+    text-shadow: 1px 1px 1px rgb(109, 109, 109);
+}
+
+/* introduction message to give context */
+.intro-message {
+    margin: 0;
+    margin-top: 18px;
+    font-size: 22px;
+    color: rgb(46, 46, 46);
+}
+
+/* button to navigate to about us section */
+.more-about-button {
+    width: fit-content;
+    margin: 60px auto 0;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    padding-right:11px;
+    position: center;
+
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(187, 160, 230);
+    background-color:#3A0F55;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #3A0F55;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px rgb(19, 19, 19);
+}
+
+/* hover animation for about navigaiton button */
+.more-about-button:hover {
+    transition: 0.35s;
+    color: #3A0F55;
+    background-color: rgb(163, 134, 209);
+}
+
+/* grid layout for intro images */
+.intro-image-content {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    align-items: end;
+}
+
+/* grid layout for first row of images (adding columns) */
+.intro-image-content-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    align-items: start;
+    gap: 200px;
+
+}
+
+/* animation style for images */
+.single-flower-image,
+.bunch-of-flowers-image,
+.farm-family-image {
+    animation: slideIn 3s ease forwards;
+}
+
+/* size styles for images in first row */
+.single-flower-image,
+.bunch-of-flowers-image {
+    width: 270px;
+    border-radius: 135px;
+}
+
+/* size styles for image in second row */
+.farm-family-image {
+    width: 320px;
+    border-radius: 160px;
+    justify-self: center;
+}
+
+/* animation styles for text and images when loading in */
+@keyframes slideIn {
+    from {
+        transform: translateX(0);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
 }
