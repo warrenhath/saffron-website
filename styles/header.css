@@ -1,6 +1,7 @@
 .header {
     height: 55px;
-    background-color: rgb(48, 25, 52);
+    background-color: rgb(29, 29, 29);
+    /* rgb(48, 25, 52) */
     top: 0;
     left: 0;
     right: 0;
@@ -8,7 +9,7 @@
     align-items: center;
     position: absolute;
     border-bottom: 2px;
-    border-color: black;
+    border-color: rgb(25, 25, 25);
     z-index: 100;
 
     border-bottom: solid;
@@ -40,7 +41,7 @@
 .recipes-button,
 .contact-button {
     font-weight: 500;
-    font-size: 18px;
+    font-size: 16px;
     background: none;
     color: white;
     cursor: pointer;
