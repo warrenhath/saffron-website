@@ -8,7 +8,7 @@ h3 {
     margin: 0;
     font-family: 'Karla', sans-serif;
     font-weight: 500;
-    font-size: 25px;
+    font-size: clamp(16px, 2.5vw, 25px);
 }
 
 p {
@@ -33,7 +33,7 @@ body {
 
 .subtitle {
     font-family: 'Jost', sans-serif;
-    font-size: 16px;
+    font-size: clamp(12px, 2vw, 16px);
     margin-top: 0;
     margin-bottom: 5px;
 }

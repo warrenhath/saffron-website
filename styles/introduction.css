@@ -2,10 +2,12 @@
 .intro-section {
     margin-top: 65px;
     display: grid;
-    grid-template-columns: 700px 1fr;
+    grid-template-columns: 47% 1fr;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
+
 
 /* CSS Grid for text paragraphs */
 .intro-paragraph-grid {
@@ -13,14 +15,15 @@
     display: grid;
     text-align: center;
     grid-template-rows: 1fr;
+    width: 100%;
     background-color: rgb(187, 160, 230);
-    padding-top: 170px;
-    padding-bottom: 170px;
-    padding-left: 20px;
-    padding-right: 80px;
-    width: 580px;
+    padding-top: 26%;
+    padding-bottom: 26%;
+    padding-left: 3%;
+    padding-right: 6%;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
+    box-sizing: border-box; 
 }
 
 /* animation for intro text elements */
@@ -33,18 +36,18 @@
 
 /* website welcome text */
 .intro-title {
+    width: 100%;
     margin: 0;
-    font-size: 46px;
+    font-size: clamp(24px, 4vw, 46px);
     font-weight: 500;
-    line-height: 45px;
+    line-height: clamp(24px, 4vw, 45px);
     color: rgb(46, 46, 46);
 }
 
 /* introduction message to give context */
 .intro-message {
     margin: 0;
-    margin-top: 20px;
-    font-size: 20px;
+    font-size: clamp(16px, 2.5vw, 20px);
     color: rgb(46, 46, 46);
 }
 
@@ -54,8 +57,11 @@
     margin: 60px auto 0;
     padding: 11px 20px;
     position: center;
+    cursor: pointer;
 
-    font-size: 26px;
+    width: auto; 
+    font-size: clamp(18px, 3vw, 26px);
+    padding: .5em 1em;
     font-weight: 500;
     color: rgb(187, 160, 230);
     background-color:#3A0F55;
@@ -75,9 +81,13 @@
 
 /* grid layout for intro images */
 .intro-image-content {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100%;
+    height: auto;
     display: grid;
-    grid-template-rows: 1fr 1fr;
-    justify-content: center;
+    grid-template-columns: 1fr;
+    justify-items: center;
     align-items: end;
 }
 
@@ -101,14 +111,18 @@
 /* size styles for images in first row */
 .single-flower-image,
 .bunch-of-flowers-image {
-    width: 250px;
-    border-radius: 125px;
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 50%;
 }
 
 /* size styles for image in second row */
 .farm-family-image {
-    width: 300px;
-    border-radius: 150px;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 50%;
     justify-self: center;
 }
 

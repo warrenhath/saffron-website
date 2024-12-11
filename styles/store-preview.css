@@ -1,5 +1,5 @@
 .store-preview-section {
-  margin-top: 170px;
+  margin-top: 120px;
   display: grid;
   grid-template-columns: 1fr;
 }
@@ -12,32 +12,42 @@
   margin-bottom: 50px;
 }
 
+.products-header {
+  text-decoration: underline;
+}
+
 .store-title {
   text-align: center;
 }
 
 .items-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  align-items: center;
-  justify-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 4%;
 }
 
 .item {
-  width: fit-content;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
-.jar-of-saffron-image {
-  width: 270px;
+.item-preview {
+  cursor: pointer;
+  width: 100%;
+  max-width: 270px;
+  height: auto;
   border: solid 2px transparent;
+  border-radius: 2px;
   transition: width 0.6s ease, border 0.3s ease;
 }
 
-.jar-of-saffron-image:hover {
+.item-preview:hover {
   transition: .3s;
   border: solid;
   border-width: 4px;
-  width: 280px;
+  width: 100%;
+  height: auto;
+  max-width: 280px;
 }
 
 .item-info {
@@ -48,12 +58,12 @@
 .item-description {
   width: 100%;
   margin-top:15px;
-  font-size: 18px;
+  font-size: clamp(14px, 2.2vw, 18px);
 }
 
 .item-price {
   margin-top: 6px;
-  font-size: 13.5px;
+  font-size: clamp(11px, 1.9vw, 13.5px);
 }
 
 .store-button-wrapper {
@@ -71,6 +81,7 @@
   border-width: 4px;
   border-radius: 2px;
   border-color: #761F2B;
+  cursor: pointer;
 }
 
 .store-button:hover {
