@@ -14,8 +14,8 @@
     text-align: center;
     grid-template-rows: 1fr;
     background-color: rgb(187, 160, 230);
-    padding-top: 185px;
-    padding-bottom: 185px;
+    padding-top: 170px;
+    padding-bottom: 170px;
     padding-left: 20px;
     padding-right: 80px;
     width: 580px;
@@ -34,18 +34,17 @@
 /* website welcome text */
 .intro-title {
     margin: 0;
-    font-size: 40px;
+    font-size: 46px;
     font-weight: 500;
     line-height: 45px;
     color: rgb(46, 46, 46);
-    text-shadow: 1px 1px 1px rgb(109, 109, 109);
 }
 
 /* introduction message to give context */
 .intro-message {
     margin: 0;
-    margin-top: 18px;
-    font-size: 22px;
+    margin-top: 20px;
+    font-size: 20px;
     color: rgb(46, 46, 46);
 }
 
@@ -53,13 +52,10 @@
 .more-about-button {
     width: fit-content;
     margin: 60px auto 0;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    padding-left: 10px;
-    padding-right:11px;
+    padding: 11px 20px;
     position: center;
 
-    font-size: 30px;
+    font-size: 26px;
     font-weight: 500;
     color: rgb(187, 160, 230);
     background-color:#3A0F55;
@@ -105,14 +101,14 @@
 /* size styles for images in first row */
 .single-flower-image,
 .bunch-of-flowers-image {
-    width: 270px;
-    border-radius: 135px;
+    width: 250px;
+    border-radius: 125px;
 }
 
 /* size styles for image in second row */
 .farm-family-image {
-    width: 320px;
-    border-radius: 160px;
+    width: 300px;
+    border-radius: 150px;
     justify-self: center;
 }
 

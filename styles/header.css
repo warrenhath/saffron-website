@@ -1,3 +1,4 @@
+/* main header styles with FlexBox*/
 .header {
     height: 55px;
     background-color: rgb(29, 29, 29);
@@ -17,16 +18,19 @@
     border-color: black;
 }
 
+/* left side of header */
 .left-section {
     display: flex;
     align-items: center;
     margin-left: 15px;
 }
 
+/* logo contained within left-section */
 .farm-logo {
     width: 60px;
 }
 
+/* middle section of the header */
 .middle-section {
     display: flex;
     justify-content: space-between;
@@ -36,6 +40,7 @@
     margin-left: auto;
 }
 
+/* buttons to help for navigation */
 .about-button,
 .photo-catalog-button,
 .recipes-button,
@@ -51,7 +56,7 @@
     transition: 0.3s;
 }
 
-
+/* hover animations for the buttons */
 .about-button:hover,
 .photo-catalog-button:hover,
 .recipes-button:hover,
@@ -61,10 +66,12 @@
     opacity: .6;
 }
 
+/* button with two words can't wrap */
 .photo-catalog-button {
     white-space: nowrap;
 }
 
+/* right side of the header */
 .right-section {
     width: 100px;
     display: flex;
@@ -73,12 +80,14 @@
     gap: 10px;
 }
 
+/* icons contained within the right section */
 .search-icon,
 .cart-icon {
     width: 22px;
     cursor: pointer;
 }
 
+/* hover animations for right section icons */
 .search-icon:hover,
 .cart-icon:hover {
     opacity: 0.75;

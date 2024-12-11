@@ -1,0 +1,84 @@
+.store-preview-section {
+  margin-top: 170px;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.store-section-header {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.store-title {
+  text-align: center;
+}
+
+.items-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-items: center;
+}
+
+.item {
+  width: fit-content;
+}
+
+.jar-of-saffron-image {
+  width: 270px;
+  border: solid 2px transparent;
+  transition: width 0.6s ease, border 0.3s ease;
+}
+
+.jar-of-saffron-image:hover {
+  transition: .3s;
+  border: solid;
+  border-width: 4px;
+  width: 280px;
+}
+
+.item-info {
+  font-family: 'Jost', sans-serif;
+  text-align: start;
+}
+
+.item-description {
+  width: 100%;
+  margin-top:15px;
+  font-size: 18px;
+}
+
+.item-price {
+  margin-top: 6px;
+  font-size: 13.5px;
+}
+
+.store-button-wrapper {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.store-button {
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  padding: 11px 20px;
+  color: #E6E6E6;
+  background-color: #761F2B;
+  border: solid;
+  border-width: 4px;
+  border-radius: 2px;
+  border-color: #761F2B;
+}
+
+.store-button:hover {
+  font-weight: 600;
+  transition: 0.5s;
+  background-color: #E6E6E6;
+  color: #761F2B;
+}
+
+
+
