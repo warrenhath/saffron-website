@@ -11,6 +11,14 @@ h3 {
     font-size: clamp(16px, 2.5vw, 25px);
 }
 
+.description {
+    font-family: 'Jost', sans-serif;
+    width: 100%;
+    font-size: clamp(14px, 2.2vw, 18px);
+    letter-spacing: .7px;
+    line-height: 29px;
+  }
+
 p {
     margin: 0;
 }
@@ -36,5 +44,6 @@ body {
     font-size: clamp(12px, 2vw, 16px);
     margin-top: 0;
     margin-bottom: 5px;
+    letter-spacing: 3px;
 }
 

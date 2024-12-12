@@ -84,7 +84,6 @@
     margin-left: 20px;
     margin-right: 20px;
     width: 100%;
-    height: auto;
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
@@ -93,11 +92,12 @@
 
 /* grid layout for first row of images (adding columns) */
 .intro-image-content-row {
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    justify-content: space-around;
+    justify-items: center;
     align-items: start;
-    gap: 200px;
+    gap: 10px;
 
 }
 

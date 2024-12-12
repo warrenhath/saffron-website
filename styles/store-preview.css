@@ -39,6 +39,7 @@
   border: solid 2px transparent;
   border-radius: 2px;
   transition: width 0.6s ease, border 0.3s ease;
+  margin-bottom: 15px;
 }
 
 .item-preview:hover {
@@ -55,11 +56,6 @@
   text-align: start;
 }
 
-.item-description {
-  width: 100%;
-  margin-top:15px;
-  font-size: clamp(14px, 2.2vw, 18px);
-}
 
 .item-price {
   margin-top: 6px;
@@ -73,8 +69,8 @@
 
 .store-button {
   font-family: 'Karla', sans-serif;
-  font-size: 16px;
-  padding: 11px 20px;
+  font-size: clamp(12px, 2vw, 16px);
+  padding: .7em 1em;
   color: #E6E6E6;
   background-color: #761F2B;
   border: solid;
