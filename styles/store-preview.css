@@ -83,7 +83,7 @@
 .store-button:hover {
   font-weight: 600;
   transition: 0.5s;
-  background-color: #E6E6E6;
+  background-color: rgba(0,0,0,0);
   color: #761F2B;
 }
 

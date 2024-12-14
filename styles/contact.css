@@ -1,0 +1,90 @@
+.contact-section {
+  margin: 100px 19%;
+}
+
+.contact-header {
+  display: grid;
+  text-align: center;
+  grid-template-rows: 1fr 1fr;
+  
+}
+
+.contact-header-title {
+  margin-bottom: 20px;
+}
+
+.contact-header-description {
+  font-family: 'Jost', sans-serif;
+  font-size: 15px;
+}
+
+
+
+.form-container {
+  font-family: 'Karla', sans-serif;
+  font-size: 13px;
+  letter-spacing: 2px;
+}
+
+.form-grid {
+  display: grid;
+  grid-template: 
+            "a b" auto
+            "c c" auto / 1fr 1fr;
+  padding: 0 40px;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.form-name {
+  grid-area: a;
+  display: grid;
+}
+
+.form-email {
+  display: grid;
+  grid-area: b;
+}
+
+.form-message {
+  display: grid;
+  grid-area: c;
+}
+
+.name, .email, .message {
+  font-family: 'Jost', sans-serif;
+  font-size: clamp(13px, 2vw, 18px);
+}
+
+.name, .email  {
+  height: 40px;
+}
+
+.message {
+  height: 200px;
+}
+
+.submit-button-wrapper {
+  justify-self: center;
+}
+
+.submit-button {
+  font-family: 'Karla', sans-serif;
+  font-size: clamp(12px, 2vw, 16px);
+  padding: .7em 1em;
+  color: #E6E6E6;
+  background-color: #761F2B;
+  border: solid;
+  border-width: 4px;
+  border-radius: 2px;
+  border-color: #761F2B;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  font-weight: 600;
+  transition: 0.5s;
+  background-color: rgba(0,0,0,0);
+  color: #761F2B;
+}
+

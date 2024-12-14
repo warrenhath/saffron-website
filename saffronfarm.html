@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="styles/spacers.css">
     <link rel="stylesheet" href="styles/store-preview.css">
     <link rel="stylesheet" href="styles/gallery-preview.css">
+    <link rel="stylesheet" href="styles/contact.css">
   </head>
 
   <body class="body">
@@ -125,6 +126,34 @@
             <button class="gallery-button">Gallery</button>
           </div>
         </div>
+      </div>
+
+      <div class="contact-section">
+        <div class="contact-header">
+          <h3 class="contact-header-title">Contact Us</h3>
+          <p class="contact-header-description">We love your questions!</p>
+        </div>
+        <div class="form-container">
+          <form action="" method="POST" class="contact-form">
+            <div class="form-grid">
+              <div class="form-name">
+                <label for="name">NAME</label>
+                <input type="text" id="name" name="name" class="name" required>
+              </div>
+              <div class="form-email">
+                <label for="email">EMAIL</label>
+                <input type="text" id="email" name="email" class="email" required>
+              </div>
+              <div class="form-message">
+                <label for="message">MESSAGE</label>
+                <textarea id ="message" type="text" class="message" name="message"></textarea>
+              </div>
+            </div>
+            <div class="submit-button-wrapper">
+              <button class="submit-button">Submit</button>
+            </div>
+          </form>
+        </div> 
       </div>
     </main>
   </body>

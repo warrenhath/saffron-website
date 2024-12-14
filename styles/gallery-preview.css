@@ -1,11 +1,12 @@
 .gallery-preview-section {
-  margin-top: 200px;
+  margin-top: 120px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-items: start;
   align-items: center;
   gap: 100px;
 }
+
 
 .gallery-image-wrapper {
   width: 100%;
@@ -46,6 +47,28 @@
 .gallery-button:hover {
   font-weight: 600;
   transition: 0.5s;
-  background-color: #E6E6E6;
+  background-color: rgba(0,0,0,0);
   color: #761F2B;
+}
+
+@media (max-width: 768px) {
+  .gallery-preview-section {
+    margin-top: 100px;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 30px;
+  }
+
+  .gallery-image-wrapper {
+    justify-content: center;
+  }
+
+  .gallery-info {
+    justify-items: center;
+    text-align: center;
+  }
+
+  .gallery-button-wrapper {
+    justify-self: center;
+  }
 }

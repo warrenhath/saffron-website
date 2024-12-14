@@ -26,8 +26,20 @@
   grid-template-columns: 1fr 1fr;
   justify-content: center;
   gap: 3vw;
-  margin-left: 3%;
-  margin-right: 3%;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  border-radius: 20px;
+  background-color: rgb(187, 160, 230);
+}
+
+@media (max-width: 768px) {
+  .image-spacer {
+    grid-template-columns: 1fr;
+  }
 }
 
 .flower-basket-image-spacer,

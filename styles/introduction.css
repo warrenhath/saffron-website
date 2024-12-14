@@ -55,7 +55,6 @@
 .more-about-button {
     width: fit-content;
     margin: 60px auto 0;
-    padding: 11px 20px;
     position: center;
     cursor: pointer;
 
@@ -106,6 +105,7 @@
 .bunch-of-flowers-image,
 .farm-family-image {
     animation: slideIn 3s ease forwards;
+    transition: transform 0.3s ease;
 }
 
 /* size styles for images in first row */
@@ -126,14 +126,20 @@
     justify-self: center;
 }
 
+.single-flower-image:hover,
+.bunch-of-flowers-image:hover,
+.farm-family-image:hover {
+    transform: scale(1.5);
+}
+
 /* animation styles for text and images when loading in */
 @keyframes slideIn {
     from {
-        transform: translateX(0);
+        transform: translateX(0), scale(1);
         opacity: 0;
     }
     to {
-        transform: translateX(0);
+        transform: translateX(0), scale(1);
         opacity: 1;
     }
 }
