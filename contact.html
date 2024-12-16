@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact Us</title>
+    <!--Inter font embedded-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!--Karla font embedded-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!--Jost font embedded-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    
+    <!--CSS styles-->
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/footer.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <a href="index.html">
+          <img class="farm-logo" src="images/header/logo-placeholder.png" alt="Home">
+        </a>
+      </div>
+      <div class="middle-section">
+        <a class="about-button" href="about.html">ABOUT</a>
+        <a class="photo-catalog-button">PHOTO CATALOG</a>
+        <a class="recipes-button">RECIPES</a>
+        <a class="contact-button" href="contact.html">CONTACT</a>
+      </div>
+      <div class="right-section">
+        <img class="search-icon" src="images/header/search-icon.svg">
+        <img class="cart-icon" src="images/header/shopping-cart-white-icon.svg">
+      </div>
+    </header>
+    <main>
+      <div class="contact-container">
+        <div class="contact-section">
+          <div class="contact-header">
+            <h3 class="contact-header-title">Send a Message</h3>
+            <p class="contact-header-description">We love to hear what you have to say!</p>
+          </div>
+          <div class="form-container">
+            <form action="" method="POST" class="contact-form">
+              <div class="form-grid">
+                <div class="form-name">
+                  <label for="name">NAME</label>
+                  <input type="text" id="name" name="name" class="name" required>
+                </div>
+                <div class="form-email">
+                  <label for="email">EMAIL</label>
+                  <input type="text" id="email" name="email" class="email" required>
+                </div>
+                <div class="form-message">
+                  <label for="message">MESSAGE</label>
+                  <textarea id ="message" type="text" class="message" name="message"></textarea>
+                </div>
+              </div>
+              <div class="submit-button-wrapper">
+                <button class="submit-button">Submit</button>
+              </div>
+            </form>
+          </div> 
+        </div>
+      </div>
+    </main>
+    <!--section for the website footer-->
+    <footer class="footer-section">
+      <div class="footer-grid">
+        <div class="footer-group">
+          <img class="footer-logo" src="/images/header/logo-placeholder.png">
+        </div>
+        <div class="footer-group">
+          <p class="footer-grid-title">SHORTCUTS</p>
+          <ul class="footer-list">
+            <li>About</li>
+            <li>Photo Catalog</li>
+            <li>Recipes</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+        <div class="footer-group">
+          <p class="footer-grid-title">MENU</p>
+          <ul class="footer-list">
+            <li>Home</li>
+            <li>Search</li>
+          </ul>
+        </div>
+        <div class="footer-group">
+          <p class="footer-grid-title">SUBSCRIBE TO THE NEWSLETTER</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

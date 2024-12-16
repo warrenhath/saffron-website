@@ -28,6 +28,7 @@
 /* logo contained within left-section */
 .farm-logo {
     width: 60px;
+    cursor: pointer;
 }
 
 /* middle section of the header */
@@ -39,6 +40,7 @@
     margin-right: 20px;
     margin-left: auto;
 }
+
 
 /* buttons to help for navigation */
 .about-button,
